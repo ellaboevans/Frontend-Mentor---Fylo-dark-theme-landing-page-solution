@@ -43,7 +43,7 @@ const Contact = () => {
         <form
           onSubmit={handleSubmit}
           method="post"
-          className="flex items-center justify-center space-x-8 flex-col md:flex-row"
+          className="flex items-center justify-center md:space-x-8 flex-col md:flex-row"
         >
           <input
             type="text"
