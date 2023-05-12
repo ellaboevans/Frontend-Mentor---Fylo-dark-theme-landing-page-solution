@@ -4,18 +4,18 @@ import ServiceCard from "./ServiceCard";
 
 const HeroSection = () => {
   return (
-    <section className=" bg-main-background utline mt-60 px-4 md:px-24 ">
+    <section className=" bg-main-background utline mt-60 md:mt-[500px] px-4 md:px-24 ">
       <div className="px-2 ">
         <div className=" -mt-32 flex justify-center item-center">
           <img
             src={heroImage}
             alt="hero-illustration"
             // width={280}
-            className="mt-16 w-[280px] md:w-[480px] absolute top-24"
+            className="mt-16 w-[280px] md:w-[580px] absolute top-24"
           />
         </div>
-        <div className="-mt-8 md:mt-10 mb-10 px-3 md:px-80  text-neutral-white flex flex-col items-center">
-          <h3 className="text-2xl font-semibold mb-6 text-center">
+        <div className="-mt-8 md:-mt-72 md:mb-28 mb-10 px-3 md:px-80  text-neutral-white flex flex-col items-center">
+          <h3 className="text-2xl md:text-3xl font-semibold mb-6 text-center">
             All your files in one secure location, accessible anywhere.
           </h3>
           <p className="text-center text-[16px] md:px-4 mb-6">

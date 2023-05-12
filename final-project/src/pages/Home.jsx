@@ -4,7 +4,7 @@ import Testimonial from "../components/Testimonial";
 
 const Home = () => {
   return (
-    <div className="bg-email-bg bg-mobileCurvy bg-no-repeat mt-52 bg-contain py-4">
+    <div className="bg-email-bg bg-mobileCurvy md:bg-desktopCurvy bg-no-repeat mt-52 md:mt-96 bg-contain py-4">
       <HeroSection />
       {/* Testimonials */}
       <Testimonial />

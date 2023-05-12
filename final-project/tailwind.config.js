@@ -19,9 +19,10 @@ export default {
         "error-alert": "hsl(0, 100%, 63%)",
         "neutral-white": "hsl(0, 0%, 100%)",
       },
-      backgroundImage:{
-        "mobileCurvy": "url(../src/assets/bg-curvy-mobile.svg)"
-      }
+      backgroundImage: {
+        mobileCurvy: "url(../src/assets/bg-curvy-mobile.svg)",
+        desktopCurvy: "url(../src/assets/bg-curvy-desktop.svg)",
+      },
     },
   },
   plugins: [],
