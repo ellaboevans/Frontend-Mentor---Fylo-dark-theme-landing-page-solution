@@ -1,6 +1,5 @@
 import heroImage from "../assets/illustration-intro.png";
 import productiveImage from "../assets/illustration-stay-productive.png";
-import arrowRight from "../assets/icon-arrow.svg";
 import ServiceCard from "./ServiceCard";
 
 const HeroSection = () => {
