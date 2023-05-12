@@ -14,11 +14,11 @@ const HeroSection = () => {
             className="mt-16 w-[280px] md:w-[580px] absolute top-24"
           />
         </div>
-        <div className="-mt-8 md:-mt-44 lg:-mt-72 md:mb-28 mb-10 px-3 tablet:px-[8rem] lg:px-80  text-neutral-white flex flex-col items-center">
-          <h3 className="text-2xl md:text-3xl font-semibold mb-6 text-center">
+        <div className="-mt-8 md:-mt-44 lg:-mt-72 md:mb-28 mb-10 px-3 tablet:px-[8rem] lg:px-80 text-neutral-white flex flex-col items-center">
+          <h3 className="text-2xl md:text-3xl font-semibold md:px-52 mb-6 text-center">
             All your files in one secure location, accessible anywhere.
           </h3>
-          <p className="text-center text-[16px] md:px-4 mb-6">
+          <p className="text-center text-[16px] md:px-24 mb-6">
             Fylo stores all your most important files in one secure location.
             Access them wherever you need, share and collaborate with friends
             family, and co-workers.
