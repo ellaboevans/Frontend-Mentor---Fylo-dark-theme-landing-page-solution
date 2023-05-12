@@ -5,7 +5,7 @@ import profileThree from "../assets/profile-3.jpg";
 import kuoote from "../assets/bg-quotes.png";
 
 const Testimonial = () => {
-  const [testimonials, setTimonials] = React.useState([
+  const [testimonials, setTestimonials] = React.useState([
     {
       id: 1,
       name: "Satish Patel",
