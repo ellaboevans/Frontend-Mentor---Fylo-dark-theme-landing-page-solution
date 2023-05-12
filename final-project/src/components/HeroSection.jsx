@@ -26,7 +26,7 @@ const HeroSection = () => {
           </p>
           <a
             href="#"
-            className="py-3 px-20 bg-inside-cta-blue text-md font-semibold rounded-full "
+            className="py-3 px-20 bg-inside-cta-blue hover:bg-inside-cta-cyan text-md font-semibold rounded-full "
           >
             Get Started
           </a>
@@ -55,14 +55,17 @@ const HeroSection = () => {
               colleagues for live collaboration. No email attachments required.
             </p>
           </div>
-          <div className="flex items-center space-x-1 border-b-2 border-b-inside-cta-cyan w-[161px] mt-8">
-            <span className="text-inside-cta-cyan">
+          <a
+            href="#"
+            className="flex items-center space-x-1 text-inside-cta-cyan hover:text-white border-b-2 border-b-inside-cta-cyan hover:border-b-white w-[161px] mt-8"
+          >
+            <span className="">
               <p> See how Fylo works </p>
             </span>
             <span>
               <img src={arrowRight} alt="arrow-right-icon" />
             </span>
-          </div>
+          </a>
         </div>
       </div>
     </section>

@@ -21,7 +21,6 @@ const Contact = () => {
     if (!isEmailValid(email)) {
       setAlertMessage(true);
     } else {
-     
       console.log({ Email: email });
     }
 
@@ -53,7 +52,7 @@ const Contact = () => {
           />
           <button
             type="submit"
-            className="p-3 px-6 w-full rounded-full font-semibold bg-inside-cta-blue focus:outline-none"
+            className="p-3 px-6 w-full rounded-full font-semibold bg-inside-cta-blue hover:bg-inside-cta-cyan focus:outline-none"
             disabled={!email}
           >
             Get Started For Free
