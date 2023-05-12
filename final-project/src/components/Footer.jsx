@@ -23,24 +23,28 @@ const Footer = () => {
     },
   ]);
   return (
-    <footer className="h-full bg-footer-bg py-4 px-8 ">
+    <footer className="h-full bg-footer-bg py-4 px-8 md:pl-36">
       <div className="mt-4 pt-52">
         <img src={logo} alt="" width={200} />
       </div>
       {/* Footer Details */}
-      <div className="py-10">
-        {details.map((info) => (
-          <div
-            className="text-neutral-white flex items-start my-8 space-x-2"
-            key={info.id}
-          >
-            <img src={info.img} alt="" />
-            <p className="-mt-1">{info.text}</p>
-          </div>
-        ))}
+      <div className="py-10  md:grid grid-cols-3 items-start">
+        <div className="md:-mt-4">
+          {details.map((info) => (
+            <div
+              className="text-neutral-white flex items-start my-8 space-x-2"
+              key={info.id}
+            >
+              <img src={info.img} alt="" />
+              <div>
+                <p className="-mt-1">{info.text}</p>
+              </div>
+            </div>
+          ))}
+        </div>
         {/* Site maps */}
-        <div className="mt-20">
-          <div className="text-neutral-white flex flex-col space-y-2 my-6">
+        <div className="mt-20 md:mt-3 md:ml-24 md:flex items-start justify-between">
+          <div className="text-neutral-white flex flex-col space-y-2 my-6 md:my-0 ">
             <a
               href="#"
               className="hover:font-semibold duration-100 transition-all"
@@ -66,7 +70,7 @@ const Footer = () => {
               Blog
             </a>
           </div>
-          <div className="text-neutral-white flex flex-col space-y-2">
+          <div className="text-neutral-white flex md: flex-col space-y-2">
             <a
               href="#"
               className="hover:font-semibold duration-100 transition-all"

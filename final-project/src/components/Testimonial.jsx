@@ -32,14 +32,14 @@ const Testimonial = () => {
     },
   ]);
   return (
-    <div className="pb-96 pt-40 bg-main-background  -mb-8 px-4">
-      <div className="-mb-8 px-3">
-        <img src={kuoote} alt="quote-icon" width={35} />
+    <div className=" pb-96 pt-40 md:pt-44 bg-main-background  -mb-8 px-4 md:px-28">
+      <div className="-mb-8 px-3 md:px-0">
+        <img src={kuoote} alt="quote-icon"  className="w-[35px] md:w-[60px]"/>
       </div>
-      <div>
+      <div className="md:grid grid-cols-3 space-x-8">
         {testimonials.map((testimonial) => (
           <div
-            className="bg-testimonial-bg py-3 mx-2 px-3 rounded-md my-8 text-neutral-white"
+            className="bg-testimonial-bg py-3 mx-2 md:mx-0 px-3 rounded-md my-8 text-neutral-white"
             key={testimonial.id}
           >
             <p className="mt-2">{testimonial.message}</p>

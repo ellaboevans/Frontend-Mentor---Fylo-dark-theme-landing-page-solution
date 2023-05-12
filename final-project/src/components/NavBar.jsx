@@ -2,7 +2,7 @@ import logo from "../assets/logo.svg";
 const NavBar = () => {
   return (
     <header>
-      <nav className="flex items-center px-4 py-10 ">
+      <nav className="flex items-center px-4 py-10 md:px-28 md:py-16">
         <div className="float-left flex-1">
           <img src={logo} alt="" width={100} />
         </div>
