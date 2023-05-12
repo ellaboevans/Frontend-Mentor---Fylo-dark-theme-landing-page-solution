@@ -36,7 +36,7 @@ const Testimonial = () => {
       <div className="-mb-8 px-3 md:px-0">
         <img src={kuoote} alt="quote-icon"  className="w-[35px] md:w-[60px]"/>
       </div>
-      <div className="md:grid grid-cols-3 space-x-8">
+      <div className="md:grid grid-cols-3 md:space-x-8">
         {testimonials.map((testimonial) => (
           <div
             className="bg-testimonial-bg py-3 mx-2 md:mx-0 px-3 rounded-md my-8 text-neutral-white"
