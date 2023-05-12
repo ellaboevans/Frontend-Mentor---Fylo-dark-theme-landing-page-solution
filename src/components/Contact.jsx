@@ -28,7 +28,7 @@ const Contact = () => {
   };
 
   return (
-    <section className=" flex flex-col items-center justify-center -mt-40 bg-email-bg text-neutral-white  rounded shadow-md absolute mx-4 md:ml-0 right-0 md:right-8 lg:right-60 md:w-[700px] lg:w-[900px]  md:px-28 md:py-10 top-auto ">
+    <section className=" flex flex-col items-center justify-center -mt-40 bg-email-bg text-neutral-white  rounded shadow-md absolute mx-4 md:ml-0 right-0 md:right-8 tablet:right-[4rem] lg:right-60 md:w-[700px] lg:w-[900px]  md:px-28 md:py-10 top-auto ">
       <div className="text-center p-2">
         <h3 className="font-semibold text-xl md:text-3xl my-4">
           Get early access today
