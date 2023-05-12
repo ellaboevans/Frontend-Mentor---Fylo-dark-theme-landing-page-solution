@@ -25,7 +25,7 @@ const Footer = () => {
   return (
     <footer className="h-full bg-footer-bg py-4 px-8 md:pl-10 lg:pl-36">
       <div className="mt-4 pt-52">
-        <img src={logo} alt="" width={200} />
+        <img src={logo} alt="logo" width={200} />
       </div>
       {/* Footer Details */}
       <div className="py-10  md:grid grid-cols-2 lg:grid-cols-3 items-start">
