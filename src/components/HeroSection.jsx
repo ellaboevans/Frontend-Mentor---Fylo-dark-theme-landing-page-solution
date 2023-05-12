@@ -43,7 +43,7 @@ const HeroSection = () => {
           </div>
           <div className="md:px-14 md:flex flex-col md:items-center lg:items-start justify-center">
             <div className="text-neutral-white mt-10">
-              <h3 className="font-semibold text-center tablet:pr-[1rem] lg:pr-72  lg:text-left text-xl md:text-3xl my-6">
+              <h3 className="font-semibold md:text-center tablet:pr-[1rem] lg:pr-72  lg:text-left text-xl md:text-3xl my-6">
                 Stay productive, wherever you are
               </h3>
               <p className="my-3 md:text-center lg:text-left">
