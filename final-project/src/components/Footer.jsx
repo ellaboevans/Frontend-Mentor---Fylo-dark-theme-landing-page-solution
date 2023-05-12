@@ -27,6 +27,7 @@ const Footer = () => {
       <div className="mt-4 pt-52">
         <img src={logo} alt="" width={200} />
       </div>
+      {/* Footer Details */}
       <div className="py-10">
         {details.map((info) => (
           <div
@@ -37,35 +38,72 @@ const Footer = () => {
             <p className="-mt-1">{info.text}</p>
           </div>
         ))}
+        {/* Site maps */}
         <div className="mt-20">
           <div className="text-neutral-white flex flex-col space-y-2 my-6">
-            <a href="#">About Us</a>
-            <a href="#">Jobs</a>
-            <a href="#">Press</a>
-            <a href="#">Blog</a>
+            <a
+              href="#"
+              className="hover:font-semibold duration-100 transition-all"
+            >
+              About Us
+            </a>
+            <a
+              href="#"
+              className="hover:font-semibold duration-100 transition-all"
+            >
+              Jobs
+            </a>
+            <a
+              href="#"
+              className="hover:font-semibold duration-100 transition-all"
+            >
+              Press
+            </a>
+            <a
+              href="#"
+              className="hover:font-semibold duration-100 transition-all"
+            >
+              Blog
+            </a>
           </div>
           <div className="text-neutral-white flex flex-col space-y-2">
-            <a href="#">Contact Us</a>
-            <a href="#">Terms</a>
-            <a href="#">Privacy</a>
+            <a
+              href="#"
+              className="hover:font-semibold duration-100 transition-all"
+            >
+              Contact Us
+            </a>
+            <a
+              href="#"
+              className="hover:font-semibold duration-100 transition-all"
+            >
+              Terms
+            </a>
+            <a
+              href="#"
+              className="hover:font-semibold duration-100 transition-all"
+            >
+              Privacy
+            </a>
           </div>
         </div>
-        <div className="text-white  space-x-3 flex items-center justify-center mt-14">
+        {/* Social Icons */}
+        <div className="text-white  space-x-3 flex items-center justify-center  mt-14">
           <a
             href="#"
-            className="p-2 outline-1 outline hover:text-inside-cta-cyan outline-white hover:outline-inside-cta-cyan rounded-full flex items-center justify-center"
+            className="p-2 outline-1 outline hover:text-inside-cta-cyan outline-white hover:outline-inside-cta-cyan rounded-full flex items-center justify-center duration-100 transition-all"
           >
             <ion-icon name="logo-facebook"></ion-icon>
           </a>
           <a
             href="#"
-            className="p-2 outline-1 outline hover:text-inside-cta-cyan outline-white hover:outline-inside-cta-cyan   rounded-full flex items-center justify-center"
+            className="p-2 outline-1 outline hover:text-inside-cta-cyan outline-white hover:outline-inside-cta-cyan   rounded-full flex items-center justify-center duration-100 transition-all"
           >
             <ion-icon name="logo-twitter"></ion-icon>
           </a>
           <a
             href="#"
-            className="p-2 outline-1 outline hover:text-inside-cta-cyan outline-white hover:outline-inside-cta-cyan  rounded-full flex items-center justify-center"
+            className="p-2 outline-1 outline hover:text-inside-cta-cyan outline-white hover:outline-inside-cta-cyan  rounded-full flex items-center justify-center duration-100 transition-all"
           >
             <ion-icon name="logo-instagram"></ion-icon>
           </a>
