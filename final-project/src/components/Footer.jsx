@@ -23,7 +23,7 @@ const Footer = () => {
     },
   ]);
   return (
-    <section className="h-full bg-footer-bg py-4 px-8 ">
+    <footer className="h-full bg-footer-bg py-4 px-8 ">
       <div className="mt-4 pt-52">
         <img src={logo} alt="" width={200} />
       </div>
@@ -50,13 +50,28 @@ const Footer = () => {
             <a href="#">Privacy</a>
           </div>
         </div>
-        {/* <div>
-          <a href="#">
-            <img src="" alt="" />
+        <div className="text-white  space-x-3 flex items-center justify-center mt-14">
+          <a
+            href="#"
+            className="p-2 outline-1 outline hover:text-inside-cta-cyan outline-white hover:outline-inside-cta-cyan rounded-full flex items-center justify-center"
+          >
+            <ion-icon name="logo-facebook"></ion-icon>
           </a>
-        </div> */}
+          <a
+            href="#"
+            className="p-2 outline-1 outline hover:text-inside-cta-cyan outline-white hover:outline-inside-cta-cyan   rounded-full flex items-center justify-center"
+          >
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+          <a
+            href="#"
+            className="p-2 outline-1 outline hover:text-inside-cta-cyan outline-white hover:outline-inside-cta-cyan  rounded-full flex items-center justify-center"
+          >
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </div>
       </div>
-    </section>
+    </footer>
   );
 };
 
