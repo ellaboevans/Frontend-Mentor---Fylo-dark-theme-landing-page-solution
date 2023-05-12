@@ -33,13 +33,14 @@ const Testimonial = () => {
   ]);
   return (
     <div className=" pb-96 pt-40 md:pt-44 bg-main-background  -mb-8 px-4 lg:px-28">
-      <div className="-mb-8 px-3 md:px-0">
+      <div className="-mb-8 md:mb-4 px-3 md:px-0">
         <img src={kuoote} alt="quote-icon" className="w-[35px] md:w-[60px]" />
       </div>
       <div className="md:grid grid-cols-3 lg:grid-cols-3 md:space-x-3 lg:space-x-8">
         {testimonials.map((testimonial) => (
           <div
-            className="bg-testimonial-bg py-3 mx-2 md:mx-0 px-3 rounded-md my-8 text-neutral-white even:animate-pulse md:odd:animate-bounce"
+            className="bg-testimonial-bg py-3 mx-2 md:mx-0 px-3 rounded-md my-8 text-neutral-white  md:first:animate-[bounce_4s_ease-in-out_infinite]
+            md:last:animate-[bounce_3s_ease-in-out_infinite]"
             key={testimonial.id}
           >
             <p className="mt-2">{testimonial.message}</p>
