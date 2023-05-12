@@ -36,7 +36,7 @@ const ServiceCard = () => {
     <div className="flex flex-col md:grid grid-cols-2 md:space-x-4 items-center justify-center">
       {cards.map((card) => (
         <div
-          className=" flex flex-col items-center justify-center my-12 md:px-20 text-neutral-white"
+          className=" flex flex-col items-center justify-center my-12 md:px-2 lg:px-20 text-neutral-white"
           key={card.id}
         >
           <div className="my-5">

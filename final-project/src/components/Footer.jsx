@@ -23,12 +23,12 @@ const Footer = () => {
     },
   ]);
   return (
-    <footer className="h-full bg-footer-bg py-4 px-8 md:pl-36">
+    <footer className="h-full bg-footer-bg py-4 px-8 md:pl-10 lg:pl-36">
       <div className="mt-4 pt-52">
         <img src={logo} alt="" width={200} />
       </div>
       {/* Footer Details */}
-      <div className="py-10  md:grid grid-cols-3 items-start">
+      <div className="py-10  md:grid grid-cols-2 lg:grid-cols-3 items-start">
         <div className="md:-mt-4">
           {details.map((info) => (
             <div
@@ -92,7 +92,7 @@ const Footer = () => {
           </div>
         </div>
         {/* Social Icons */}
-        <div className="text-white  space-x-3 flex items-center justify-center  mt-14 md:mt-0">
+        <div className="text-white  space-x-3 flex items-center lg:justify-center  mt-14 md:mt-0">
           <a
             href="#"
             className="p-2 outline-1 outline hover:text-inside-cta-cyan outline-white hover:outline-inside-cta-cyan rounded-full flex items-center justify-center duration-100 transition-all"
