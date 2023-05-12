@@ -21,7 +21,7 @@ const Contact = () => {
     if (!isEmailValid(email)) {
       setAlertMessage(true);
     } else {
-      setAlertMessage(false);
+     
       console.log({ Email: email });
     }
 
