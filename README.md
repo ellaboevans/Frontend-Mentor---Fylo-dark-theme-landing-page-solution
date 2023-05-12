@@ -1,111 +1,60 @@
 # Frontend Mentor - Fylo dark theme landing page solution
 
-This is a solution to the [Fylo dark theme landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Table of contents
+## Table of Contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [The Challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+- [My Process](#my-process)
+  - [Technologies Used](#technologies-used)
+  - [Form Validation](#form-validation)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+- [Author](#author)
 
 ## Overview
 
-### The challenge
+### The Challenge
 
-Users should be able to:
+This is my solution to the [Fylo dark theme landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f0ef1e82137ec91a50fa).
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+The challenge was to build a landing page for a fictional company called Fylo, using the provided design files in Figma. The landing page had to be fully responsive and pixel-perfect, matching the design as closely as possible.
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Fylo landing page Desktop screenshot](./screenshots/flyo-desktop.png)
+![Fylo landing page Mobile screenshot](./screenshots/flyo-mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live Site](https://your-live-site-url.com)
 
-## My process
+## My Process
 
-### Built with
+I decided to build the landing page using ReactJS and TailwindCSS, as I am familiar with both technologies and I wanted to use this opportunity to improve my skills. To get started, I set up the project using create-react-app and installed the necessary dependencies, including TailwindCSS and ionicons for the icons.
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+I then proceeded to build the different components of the landing page, following the design as closely as possible and making sure that everything was fully responsive and looked great on all screen sizes. I used TailwindCSS extensively for the styling, taking advantage of its utility classes to quickly and easily style my components.
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### Technologies Used
 
-### What I learned
+- ReactJS
+- TailwindCSS
+- Ionicons
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+### Form Validation
 
-To see how you can add code snippets, see below:
+One of the requirements of the challenge was to perform form validation on the email input field. To accomplish this, I used the built-in HTML5 validation attributes, along with some custom JavaScript code to handle the validation logic.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+When the user submits the form, the JavaScript code checks if the email is valid and displays an error message if it is not. If the email is valid, the form is submitted as usual.
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I would like to thank Frontend Mentor for providing this challenging and fun project, as well as all the resources and support needed to complete it successfully. I also want to thank the open-source community for providing the tools and technologies that made this project possible.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+## Author
+
+### Evans Elabo
+
+- GitHub: [evanselabo](https://github.com/evanselabo)
+- LinkedIn: [Evans Elabo](https://www.linkedin.com/in/evanselabo/)
+- Twitter: [@evanselabo](https://twitter.com/evanselabo)
