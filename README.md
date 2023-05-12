@@ -27,7 +27,8 @@ The challenge was to build a landing page for a fictional company called Fylo, u
 
 ### Links
 
-- [Live Site](https://your-live-site-url.com)
+- [Fylo Live Preview](https://fylo-concept.vercel.app/)
+- [Fylo Solution](https://github.com/ellaboevans/Frontend-Mentor---Fylo-dark-theme-landing-page-solution)
 
 ## My Process
 
