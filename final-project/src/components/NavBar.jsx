@@ -7,9 +7,15 @@ const NavBar = () => {
           <img src={logo} alt="" width={100} />
         </div>
         <div className="text-neutral-white space-x-3 ">
-          <a href="#">Features</a>
-          <a href="#">Team</a>
-          <a href="#">Sign In</a>
+          <a href="#" className="hover:underline duration-100 transition-all">
+            Features
+          </a>
+          <a href="#" className="hover:underline duration-100 transition-all">
+            Team
+          </a>
+          <a href="#" className="hover:underline duration-100 transition-all">
+            Sign In
+          </a>
         </div>
       </nav>
     </header>
