@@ -59,12 +59,8 @@ const HeroSection = () => {
             href="#"
             className="flex items-center space-x-1 text-inside-cta-cyan hover:text-white border-b-2 border-b-inside-cta-cyan hover:border-b-white w-[161px] mt-8"
           >
-            <span className="">
-              <p> See how Fylo works </p>
-            </span>
-            <span>
-              <img src={arrowRight} alt="arrow-right-icon" />
-            </span>
+            <p> See how Fylo works </p>
+            <ion-icon name="arrow-forward-circle"></ion-icon>
           </a>
         </div>
       </div>
